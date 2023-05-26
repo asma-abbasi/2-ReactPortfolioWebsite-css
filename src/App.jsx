@@ -9,7 +9,7 @@ import Contact from './component/contact/Contact'
 import Menu from "./component/menu/Menu";
 export default function App() {
   const [menuOpen , setMenuOpen] = useState(false)
-  return (
+  return (  
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
